@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="calcu">
+        <input type="text" id="display" readonly>
+        <div id="keys">
+            <button onclick="displayToScreen('+')" class="op-btn">+</button>
+            <button onclick="displayToScreen('7')">7</button>
+            <button onclick="displayToScreen('8')">8</button>
+            <button onclick="displayToScreen('9')">9</button>
+            <button onclick="displayToScreen('-')" class="op-btn">-</button>
+            <button onclick="displayToScreen('4')">4</button>
+            <button onclick="displayToScreen('5')">5</button>
+            <button onclick="displayToScreen('6')">6</button>
+            <button onclick="displayToScreen('*')" class="op-btn"><i class="ri-close-fill"></i></button>
+            <button onclick="displayToScreen('1')">1</button>
+            <button onclick="displayToScreen('2')">2</button>
+            <button onclick="displayToScreen('3')">3</button>
+            <button onclick="displayToScreen('/')" class="op-btn"><i class="ri-divide-fill"></i></button>
+            <button onclick="displayToScreen('0')">0</button>
+            <button onclick="displayToScreen('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="clearDisplay()">C</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
