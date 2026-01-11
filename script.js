@@ -15,4 +15,7 @@ function calculate() {
     catch(error) {
         display.value = "Syntax Error"
     }
+
 }
+
+// Test
